@@ -6,6 +6,11 @@
   "repository": "git@github.com:AD1N1993/webpack.git",
   "author": "YuryGrivickiy <gru@crtweb.ru>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
   "devDependencies": {
     "webpack": "^5.37.0",
     "webpack-cli": "^4.7.0",
