@@ -1,3 +1,5 @@
+import "./styles/index.scss"
+
 const car = {
   name: "Tesla",
   speed: 28
