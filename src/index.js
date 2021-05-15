@@ -1,6 +1,12 @@
-const testObj = {
-  name: "Yury",
-  age: 28
+const car = {
+  name: "Tesla",
+  speed: 28
 }
 
-console.log(testObj)
+const superCar = {
+  ...car,
+  nitro: true
+}
+
+console.log(car)
+console.log(superCar)
