@@ -1,14 +1,4 @@
-import "./styles/index.scss"
+import {render} from "react-dom";
+import App from "./components/App"
 
-const car = {
-  name: "Tesla",
-  speed: 28
-}
-
-const superCar = {
-  ...car,
-  nitro: true
-}
-
-console.log(car)
-console.log(superCar)
+render(<App/>, document.getElementById("root"))
